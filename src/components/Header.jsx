@@ -1,18 +1,22 @@
-import React from 'react';
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
-const Header = () => {
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import { Badge } from '@mui/material';
+import { ShoppingCart } from '@mui/icons-material';
+
+
+
+export const Header = () => {
   return (
-    <header>
-      <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">DSL Descartables</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Inicio</Nav.Link>
-              <Nav.Link href="#link">Acerca de Nosotros</Nav.Link>
-              <Nav.Link href="#link">Promociones</Nav.Link>
+              <NavLink to="/" className="nav-link">Inicio</NavLink>
+              <NavLink to="/" className="nav-link">Comprar</NavLink>
+              <NavLink to="/promociones" className="nav-link">Promociones</NavLink>
               <NavDropdown title="Productos" id="basic-nav-dropdown">
                 <NavDropdown title="Bolsas" id="basic-nav-dropdown-bolsas">
                   <NavDropdown.Item href="#action/3.1">Precorte</NavDropdown.Item>
@@ -61,17 +65,20 @@ const Header = () => {
                   <NavDropdown.Item href="#action/11.2">Libreria</NavDropdown.Item>
                   <NavDropdown.Item href="#action/11.3">Moños</NavDropdown.Item>
                   <NavDropdown.Item href="#action/11.4">Moldes</NavDropdown.Item>
-                </NavDropdown>               
+                </NavDropdown>              
               </NavDropdown>
+              <NavLink to="/contacto" className="nav-link">Contacto</NavLink>
             </Nav>
           </Navbar.Collapse>
+          <NavLink to="/carrito">
+             <Badge badgeContent={4} color="secondary">
+               <ShoppingCart color="action" />
+             </Badge>
+            </NavLink>
         </Container>
       </Navbar>
-    </header>
-  );
+  )
 }
-
-export default Header;
 
 
 

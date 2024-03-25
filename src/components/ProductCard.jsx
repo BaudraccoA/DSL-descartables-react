@@ -1,6 +1,5 @@
-import React from 'react';
 
-const ProductCard = ({ product }) => {
+export const ProductCard = () => {
   return (
     <div className="card">
       <img src={product.image} alt={product.name} />
@@ -8,7 +7,5 @@ const ProductCard = ({ product }) => {
       <p>Precio: ${product.price}</p>
       <button>Comprar</button>
     </div>
-  );
+  )
 }
-
-export default ProductCard;

@@ -1,9 +1,6 @@
-import React from 'react'
 
-const Promotions = () => {
+export const Promotions = () => {
   return (
     <div>Promotions</div>
   )
 }
-
-export default Promotions
