@@ -14,11 +14,11 @@ export const App = () => {
     <Header />
     <div className='container'>
     <Routes>
-      <Route path='/' element={<ComprarPage />}></Route>
-      <Route path='/promociones' element={<PromocionesPage />}></Route>
-      <Route path='/contacto' element={<ContactoPage />}></Route>
-      <Route path='/carrito' element={<CarritoPage />}></Route>
-      <Route path='/*' element={<Navigate to="/" />}></Route>
+          <Route path='/' element={<ComprarPage />}></Route>
+          <Route path='/promociones' element={<PromocionesPage />}></Route>
+          <Route path='/contacto' element={<ContactoPage />}></Route>
+          <Route path='/carrito' element={<CarritoPage />}></Route>
+          <Route path='/*' element={<Navigate to="/" />}></Route>
     </Routes>
     </div>
     </>
