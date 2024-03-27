@@ -7,26 +7,24 @@ export const PromotionsCarousel = () => {
   return (
     <Carousel>
       <Carousel.Item>
-        <ExampleCarouselImage imageUrl="https://mott.social/wp-content/uploads/2020/12/Envades-biodegradables-diversos.jpg"/>
+        <ExampleCarouselImage imageUrl="https://imprentaciccariello.com.uy/wp-content/uploads/2022/06/OFERTAS-768x248.png"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3></h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage imageUrl="https://livinginlogan.com.au/wp-content/uploads/2021/03/Plastic.jpg" />
+        <ExampleCarouselImage imageUrl="https://www.lacamaradetrenque.com.ar/wp-content/uploads/2016/09/promocionesydescuentos.jpg" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='oferta2'>Por compra superior a los $ 5.000 un 5 % ; $ 15.000 un 10 % y
+          $ 100.000 un 15 %</h3>  
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage imageUrl="https://cdn.pixabay.com/photo/2022/09/21/03/34/thai-7469394_1280.jpg" />
+        <ExampleCarouselImage imageUrl="https://www.carniceriarivas.com/upload/descuento_bienvenida.png" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3></h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

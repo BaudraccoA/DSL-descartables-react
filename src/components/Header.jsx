@@ -8,12 +8,15 @@ import { ShoppingCart } from '@mui/icons-material';
 
 export const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary pb-2">
         <Container>
-          <Navbar.Brand href="#home">DSL Descartables</Navbar.Brand>
+          <div className="d-flex justify-content-between align-items-center">
+            <Navbar.Brand href="#home" className='title'>DSL Descartables</Navbar.Brand>
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto mt-5">
+            <NavLink to="/home" className="nav-link">Inicio</NavLink>
               <NavLink to="/" className="nav-link">Comprar</NavLink>
               <NavLink to="/promociones" className="nav-link">Promociones</NavLink>
               <NavDropdown title="Productos" id="basic-nav-dropdown">
@@ -68,12 +71,12 @@ export const Header = () => {
               </NavDropdown>
               <NavLink to="/contacto" className="nav-link">Contacto</NavLink>
             </Nav>
-          </Navbar.Collapse>
-          <NavLink to="/carrito">
+            <NavLink to="/carrito">
              <Badge badgeContent={4} color="secondary">
                <ShoppingCart color="action" />
              </Badge>
             </NavLink>
+          </Navbar.Collapse>    
         </Container>
       </Navbar>
   )

@@ -1,0 +1,19 @@
+/* Estilos generales para h3 y p */
+h3, p {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem; /* Tamaño de fuente base */
+}
+
+/* Estilos para texto blanco */
+.t1, .o1 {
+    color: white;
+    font-weight: bold;
+}
+
+/* Media query para ajustar el tamaño del texto en pantallas más pequeñas */
+@media (max-width: 768px) {
+    h3, p {
+        font-size: 1rem; /* Reducimos el tamaño de fuente en pantallas más pequeñas */
+    }
+}

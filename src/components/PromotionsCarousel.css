@@ -1,0 +1,15 @@
+
+.oferta2 {
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+}
+
+/* Media query para ajustar el tamaño del texto en pantallas más pequeñas */
+@media (max-width: 768px) {
+
+    .oferta2 {
+        font-size: 1.5vw; /* Ajustamos el tamaño de la oferta 2 para que sea más chica en pantallas pequeñas */
+    }
+}
+

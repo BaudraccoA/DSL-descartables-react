@@ -1,0 +1,10 @@
+.title {
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(7, 33, 180);
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: bold;
+}
