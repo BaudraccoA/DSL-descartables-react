@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { CarritoPage } from './pages/CarritoPage';
 import { Header } from './components/Header';
@@ -11,17 +11,24 @@ import "./components/Header.css";
 import "./components/PromotionsCarousel.css"
 import "./components/Home.css"
 import "./components/Footer.css"
+import { CartProvider } from './context/CartContext';
 
 
 
 
 export const App = () => {
+  const [carrito, setCarrito] = useState([]);
+
+  const agregarAlCarrito = (producto) => {
+    setCarrito([...carrito, producto]);
+  }
+
   return (
-    <>
+    <CartProvider>
     <Header />
     <div className='container'>
     <Routes>
-          <Route path='/' element={<ComprarPage />}></Route>
+          <Route path='/' element={<ComprarPage agregarAlCarrito={agregarAlCarrito} />}></Route>
           <Route path='/home' element={<HomePage />}></Route>
           <Route path='/promociones' element={<PromocionesPage />}></Route>
           <Route path='/contacto' element={<ContactoPage />}></Route>
@@ -31,7 +38,7 @@ export const App = () => {
     </div>
     <Footer />
             
-    </>
+    </CartProvider>
   );
 };
 
