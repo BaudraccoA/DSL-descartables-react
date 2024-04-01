@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export const ShoppingCart = ({ itemCount}) => {
+export const ShoppingCart = ({ itemCount }) => {
   return (
     <div className="cart">
       <span>{itemCount}</span>

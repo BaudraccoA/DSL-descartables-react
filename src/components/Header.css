@@ -8,3 +8,16 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+.carrito {
+    position:fixed;
+    top: 30px;
+    right: 5%;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  }
+
+  @media (max-width: 768px) {
+    .carrito {
+        right: 100px; /* Cambia la posición del carrito para pantallas más pequeñas */
+    }
+}

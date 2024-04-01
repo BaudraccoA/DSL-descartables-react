@@ -1,12 +1,14 @@
-
+import React, { useContext } from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { Badge } from '@mui/material';
 import { ShoppingCart } from '@mui/icons-material';
-
+import { CartContext } from '../context/CartContext';
 
 
 export const Header = () => {
+  const { cart } = useContext(CartContext);
+  
   return (
     <Navbar expand="lg" className="bg-body-tertiary pb-2">
         <Container>
@@ -71,8 +73,8 @@ export const Header = () => {
               </NavDropdown>
               <NavLink to="/contacto" className="nav-link">Contacto</NavLink>
             </Nav>
-            <NavLink to="/carrito">
-             <Badge badgeContent={4} color="secondary">
+            <NavLink to="/carrito" className="carrito">
+             <Badge badgeContent={cart.length} color="secondary">
                <ShoppingCart color="action" />
              </Badge>
             </NavLink>
