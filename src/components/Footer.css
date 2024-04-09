@@ -4,7 +4,7 @@
 }
 
 .copy {
-    font-size: 2vw; /* Utiliza vw (viewport width) para que el tamaño de la fuente sea relativo al ancho de la pantalla */
+    font-size: 1vw; /* Utiliza vw (viewport width) para que el tamaño de la fuente sea relativo al ancho de la pantalla */
     color: white;
     text-align: center;
 }
