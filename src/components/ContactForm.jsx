@@ -43,14 +43,14 @@ export const ContactForm = () => {
 
         if (Object.keys(newErrors).length === 0) {
             try {
-                const response = await fetch('http://localhost:5174/contacto', {
+                const response = await fetch('http://localhost:5173/contacto', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify(formData)                
+                    body: JSON.stringify(formData)                  
                 });
-
+                
                 if (response.ok) {
                     console.log('Formulario enviado exitosamente');
                 } else {

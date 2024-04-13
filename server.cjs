@@ -1,27 +1,30 @@
+
+//import express from  'express';
 const express = require('express');
+//import nodemailer from  "nodemailer";
 const nodemailer = require('nodemailer');
+//import cors from  'cors';
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 5174;
-console.log(PORT)
+const PORT = process.env.PORT || 5173;
 
 // Middleware para permitir el análisis de JSON
 app.use(express.json());
+console.log(app)
 
 // Middleware de CORS
 app.use(cors()); // Habilita CORS para todas las solicitudes
 
 // Ruta para manejar el envío del formulario
 app.post('/contacto', (req, res) => {
-    console.log(req.body)
     console.log('Solicitud POST recibida en /contacto');
     const { name, email, subject, message } = req.body;
     console.log('Datos recibidos:', { name, email, subject, message });
      
 
-    // Configuración de nodemailer para enviar correos electrónicos
-    /*const transporter = nodemailer.createTransport({
+     //Configuración de nodemailer para enviar correos electrónicos
+    const transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
             user: 'dsldescartables@gmail.com',
@@ -34,7 +37,7 @@ app.post('/contacto', (req, res) => {
         to: 'dsldescartables@gmail.com',
         subject: subject,
         text: `Nombre: ${name}\nCorreo Electrónico: ${email}\nMensaje: ${message}`
-    };*/
+    };
    
 
     transporter.sendMail(mailOptions, (error, info) => {
@@ -52,3 +55,10 @@ app.post('/contacto', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor escuchando en el puerto ${PORT}`);
 });
+
+
+module.exports = {
+    app: app,   
+    PORT: PORT,  
+    
+};

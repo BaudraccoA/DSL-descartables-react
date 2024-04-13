@@ -12,7 +12,7 @@ import "./components/PromotionsCarousel.css"
 import "./components/Home.css"
 import "./components/Footer.css"
 import { CartProvider } from './context/CartContext';
-
+import { ProductsPage } from './pages/ProductsPage';
 
 
 
@@ -28,9 +28,10 @@ export const App = () => {
     <Header />
     <div className='container'>
     <Routes>
-          <Route path='/' element={<ComprarPage agregarAlCarrito={agregarAlCarrito} />}></Route>
           <Route path='/home' element={<HomePage />}></Route>
+          <Route path='/' element={<ComprarPage agregarAlCarrito={agregarAlCarrito} />}></Route>
           <Route path='/promociones' element={<PromocionesPage />}></Route>
+          <Route path='/producto/:productName' element={<ProductsPage agregarAlCarrito={agregarAlCarrito} />}></Route>
           <Route path='/contacto' element={<ContactoPage />}></Route>
           <Route path='/carrito' element={<CarritoPage />}></Route>
           <Route path='/*' element={<Navigate to="/home" />}></Route>
