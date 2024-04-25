@@ -4,6 +4,25 @@ import { CartContext } from '../context/CartContext';
 export const CarritoPage = () => {
   const { cart, removeFromCart, updateCartItemQuantity } = useContext(CartContext);
   const [total, setTotal] = useState(0);
+  const handleImpresion = () => {
+    // Crear el mensaje con los detalles del pedido
+    const message = `¡Hola! Quiero hacer el siguiente pedido:
+${cart.map(product => `${product.name}: ${product.quantity} x ${product.price}`).join('\n')}
+Total: ${total}`;
+
+    // Puedes ajustar el formato del mensaje según tus necesidades
+
+    // Sustituye 'número_de_teléfono' con el número al que deseas enviar el mensaje por WhatsApp
+    const whatsappLink = `https://wa.me/+5493544590440/?text=${encodeURIComponent(message)}`;
+    
+
+    // Abre el enlace de WhatsApp en una nueva ventana
+    window.open(whatsappLink, '_blank');
+
+    // Opcional: puedes enviar el mensaje por correo electrónico en lugar de WhatsApp
+    // Para ello, utiliza la API de correo electrónico o un servicio de terceros
+  };
+
 
   const handleQuantityChange = (index, newQuantity, price) => {
     updateCartItemQuantity(index, newQuantity);
@@ -62,7 +81,10 @@ export const CarritoPage = () => {
         <strong>Total: {total}</strong>
       </div>
       <div className="d-grid gap-2">
-        <button className="btn btn-primary">Comprar</button>
+        <button 
+        className="btn btn-primary"
+        onClick={handleImpresion}
+        >Comprar</button>
       </div>
     </>
   );

@@ -53,6 +53,9 @@ export const ContactForm = () => {
                 
                 if (response.ok) {
                     console.log('Formulario enviado exitosamente');
+                    // Limpiar los campos del formulario y recargar la página
+                    clearForm();
+                      window.location.reload(); // Esto recargará la página
                 } else {
                     console.error('Error al enviar el formulario');
                 }
@@ -122,7 +125,10 @@ export const ContactForm = () => {
                         </Form.Group>
 
                         <div className="mt-3 mb-3">
-                            <Button variant="primary" type="submit">
+                            <Button 
+                            variant="primary" 
+                            type="submit"   
+                            >
                                Enviar Mensaje
                             </Button>
                         </div>
