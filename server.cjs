@@ -28,7 +28,7 @@ app.post('/contacto', (req, res) => {
         service: 'Gmail',
         auth: {
             user: 'dsldescartables@gmail.com',
-            pass: 'Alan02-24'
+            pass: ''
         }
     });
 
