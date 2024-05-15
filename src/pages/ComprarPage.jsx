@@ -1,11 +1,12 @@
 import React from 'react';
 import { ProductCard } from '../components/ProductCard';
+import bolsa1 from '../assets/00032405023bolsas-polietileno.jpg'; 
 
 
 const products = [
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2800.00',
     detail: 'Rollo mundi 20x30cm x 600 grs',
     showSaleBadge: false,
