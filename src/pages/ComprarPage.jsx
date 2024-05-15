@@ -14,7 +14,7 @@ const products = [
   },
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2800.00',
     detail: 'Rollo mundi 25x35 x 600 grs',
     showSaleBadge: false,
@@ -22,7 +22,7 @@ const products = [
   },
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2800.00',
     detail: 'Rollo mundi 30x40 x 600 grs',
     showSaleBadge: false,
@@ -30,7 +30,7 @@ const products = [
   },
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2800.00',
     detail: 'Rollo mundi 40x50 x 600 grs',
     showSaleBadge: false,
@@ -38,7 +38,7 @@ const products = [
   },
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2700.00',
     detail: 'Rollo RH 20x30 x 600 grs',
     showSaleBadge: false,
@@ -46,7 +46,7 @@ const products = [
   },
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2700.00',
     detail: 'Rollo RH 25x35 x 600 grs',
     showSaleBadge: false,
@@ -54,7 +54,7 @@ const products = [
   },
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2700.00',
     detail: 'Rollo RH 30x40 x 600 grs',
     showSaleBadge: false,
@@ -62,7 +62,7 @@ const products = [
   },
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2700.00',
     detail: 'Rollo RH 35x45 x 600 grs',
     showSaleBadge: false,
@@ -70,7 +70,7 @@ const products = [
   },
   { 
     name: 'Bolsas de Precorte',
-    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    image: bolsa1,
     price: '2700.00',
     detail: 'Rollo RH 40x50 x 600 grs',
     showSaleBadge: false,
