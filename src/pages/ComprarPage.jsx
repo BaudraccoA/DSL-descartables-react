@@ -4,9 +4,74 @@ import { ProductCard } from '../components/ProductCard';
 
 const products = [
   { 
-    name: 'Fancy Product',
-    image: 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg',
-    price: '40.00',
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2800.00',
+    detail: 'Rollo mundi 20x30cm x 600 grs',
+    showSaleBadge: false,
+    showPrice2: false,
+  },
+  { 
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2800.00',
+    detail: 'Rollo mundi 25x35 x 600 grs',
+    showSaleBadge: false,
+    showPrice2: false,
+  },
+  { 
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2800.00',
+    detail: 'Rollo mundi 30x40 x 600 grs',
+    showSaleBadge: false,
+    showPrice2: false,
+  },
+  { 
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2800.00',
+    detail: 'Rollo mundi 40x50 x 600 grs',
+    showSaleBadge: false,
+    showPrice2: false,
+  },
+  { 
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2700.00',
+    detail: 'Rollo RH 20x30 x 600 grs',
+    showSaleBadge: false,
+    showPrice2: false,
+  },
+  { 
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2700.00',
+    detail: 'Rollo RH 25x35 x 600 grs',
+    showSaleBadge: false,
+    showPrice2: false,
+  },
+  { 
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2700.00',
+    detail: 'Rollo RH 30x40 x 600 grs',
+    showSaleBadge: false,
+    showPrice2: false,
+  },
+  { 
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2700.00',
+    detail: 'Rollo RH 35x45 x 600 grs',
+    showSaleBadge: false,
+    showPrice2: false,
+  },
+  { 
+    name: 'Bolsas de Precorte',
+    image: 'src/assets/00032405023bolsas-polietileno.jpg',
+    price: '2700.00',
+    detail: 'Rollo RH 40x50 x 600 grs',
     showSaleBadge: false,
     showPrice2: false,
   },
@@ -14,20 +79,7 @@ const products = [
     name: 'Fancy Product',
     image: 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg',
     price: '40.00',
-    showSaleBadge: false,
-    showPrice2: false,
-  },
-  { 
-    name: 'Fancy Product',
-    image: 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg',
-    price: '40.00',
-    showSaleBadge: false,
-    showPrice2: false,
-  },
-  { 
-    name: 'Fancy Product',
-    image: 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg',
-    price: '40.00',
+    detail: 'This is the detail for Fancy Product 4.',
     showSaleBadge: true,
     showPrice2: false,
   },
@@ -35,6 +87,7 @@ const products = [
     name: 'Sale Item',
     image: 'https://dummyimage.com/450x300/ff6f61/ffffff.png&text=SALE',
     price: '30.00',
+    detail: 'This is the detail for Fancy Product 5.',
     showSaleBadge: false,
     showPrice2: false,
   },
@@ -42,6 +95,7 @@ const products = [
     name: 'Sale Item',
     image: 'https://dummyimage.com/450x300/ff6f61/ffffff.png&text=SALE',
     price: '30.00',
+    detail: 'This is the detail for Fancy Product 6.',
     showSaleBadge: false,
     showPrice2: false,
   },
@@ -49,6 +103,7 @@ const products = [
     name: 'Sale Item',
     image: 'https://dummyimage.com/450x300/ff6f61/ffffff.png&text=SALE',
     price: '30.00',
+    detail: 'This is the detail for Fancy Product 7.',
     showSaleBadge: false,
     showPrice2: false,
   },
@@ -121,7 +176,8 @@ export const ComprarPage = ({ agregarAlCarrito }) => {
           {products.map((product, index) => (
             <ProductCard 
             key={index} 
-            product={product} 
+            product={product}
+            detail={product.detail} // Pasando el detalle del producto al componente ProductCard 
             showSaleBadge={product.showSaleBadge} 
             showPrice2={product.showPrice2}
             agregarAlCarrito={agregarAlCarrito} />
@@ -131,3 +187,4 @@ export const ComprarPage = ({ agregarAlCarrito }) => {
     </section>
   );
 };
+

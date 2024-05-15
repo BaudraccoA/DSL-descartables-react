@@ -10,6 +10,7 @@ const products = [
     name: 'precorte',
     image: 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg',
     price: '80.00',
+    detail: 'This is the detail for Fancy Product 1.',
     showSaleBadge: false,
     showPrice2: false,
   },
@@ -18,6 +19,7 @@ const products = [
     name: 'papel',
     image: 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg',
     price: '80.00',
+    detail: 'This is the detail for Fancy Product 2.',
     showSaleBadge: false,
     showPrice2: false,
   },
@@ -26,6 +28,7 @@ const products = [
     name: 'carton',
     image: 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg',
     price: '50.00',
+    detail: 'This is the detail for Fancy Product 3.',
     showSaleBadge: false,
     showPrice2: false,
   },
@@ -34,6 +37,7 @@ const products = [
     name: 'consorcio',
     image: 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg',
     price: '10.00',
+    detail: 'This is the detail for Fancy Product 4.',
     showSaleBadge: false,
     showPrice2: false,
   },
@@ -52,7 +56,8 @@ export const ProductsPage = ({ agregarAlCarrito }) => {
           {product && (
             <div className="col mb-5">
               <ProductCard 
-                product={product} 
+                product={product}
+                detail={product.detail} // Pasando el detalle del producto al componente ProductCard 
                 showSaleBadge={product.showSaleBadge} 
                 showPrice2={product.showPrice2}
                 agregarAlCarrito={agregarAlCarrito} 

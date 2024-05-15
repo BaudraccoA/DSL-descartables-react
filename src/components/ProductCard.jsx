@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { CartContext } from '../context/CartContext';
 
-export const ProductCard = ({ product, showSaleBadge, showPrice2 }) => {
+export const ProductCard = ({ product, detail, showSaleBadge, showPrice2 }) => {
   const [isAddedToCart, setIsAddedToCart] = useState(false);
   const { cart, addToCart, removeFromCart } = useContext(CartContext);
 
@@ -28,6 +28,8 @@ export const ProductCard = ({ product, showSaleBadge, showPrice2 }) => {
           <div className="text-center">
             {/* Product name */}
             <h5 className="fw-bolder">{product.name}</h5>
+            {/* Detail */}
+            <p className="text-muted small">{detail}</p> {/* Muestra el detalle del producto */}
             {/* Product price */}
             {product.price && <span>Precio: ${product.price}</span>}
             {showPrice2 && product.name === 'Special Item' && (

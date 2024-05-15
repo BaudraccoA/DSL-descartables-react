@@ -28,8 +28,8 @@ export const App = () => {
     <Header />
     <div className='container'>
     <Routes>
-          <Route path='/home' element={<HomePage />}></Route>
-          <Route path='/' element={<ComprarPage agregarAlCarrito={agregarAlCarrito} />}></Route>
+          <Route path='/' element={<HomePage />}></Route>
+          <Route path='/comprar' element={<ComprarPage agregarAlCarrito={agregarAlCarrito} />}></Route>
           <Route path='/promociones' element={<PromocionesPage />}></Route>
           <Route path='/producto/:productName' element={<ProductsPage agregarAlCarrito={agregarAlCarrito} />}></Route>
           <Route path='/contacto' element={<ContactoPage />}></Route>
