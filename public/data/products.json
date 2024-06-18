@@ -1,0 +1,1073 @@
+[
+    { 
+      "id":1,
+      "name": "Bolsas de Precorte",
+      "image": "00032405023bolsas-polietileno.jpg",
+      "price": "2800.00",
+      "detail": "Rollo AD mundi 20x30cm x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":2,
+      "name": "Bolsas de Precorte",
+      "image": "00032405023bolsas-polietileno.jpg",
+      "price": "2800.00",
+      "detail": "Rollo AD mundi 25x35 x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":3,
+      "name": "Bolsas de Precorte",
+      "image": "00032405023bolsas-polietileno.jpg",
+      "price": "2800.00",
+      "detail": "Rollo AD mundi 30x40 x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":4,
+      "name": "Bolsas de Precorte",
+      "image": "00032405023bolsas-polietileno.jpg",
+      "price": "2800.00",
+      "detail": "Rollo AD mundi 40x50 x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":5,
+      "name": "Bolsas de Precorte",
+      "image":"bolsas-de-polietileno-natural.jpg",
+      "price": "5600.00",
+      "detail": "Rollo AD mundi 50x70 x 1200 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":6,
+      "name": "Bolsas de Precorte",
+      "image": "bolsa-de-plastico-polietileno-en-rollo-1.jpg",
+      "price": "2700.00",
+      "detail": "Rollo AD RH 20x30 x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":7,
+      "name": "Bolsas de Precorte",
+      "image": "bolsa-de-plastico-polietileno-en-rollo-1.jpg",
+      "price": "2700.00",
+      "detail": "Rollo AD RH 25x35 x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":8,
+      "name": "Bolsas de Precorte",
+      "image": "bolsa-de-plastico-polietileno-en-rollo-1.jpg",
+      "price": "2700.00",
+      "detail": "Rollo AD RH 30x40 x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":9,
+      "name": "Bolsas de Precorte",
+      "image": "bolsa-de-plastico-polietileno-en-rollo-1.jpg",
+      "price": "2700.00",
+      "detail": "Rollo AD RH 35x45 x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":10,
+      "name": "Bolsas de Precorte",
+      "image": "bolsa-de-plastico-polietileno-en-rollo-1.jpg",
+      "price": "2700.00",
+      "detail": "Rollo AD RH 40x50 x 600 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":11,
+      "name": "Bolsas de Precorte",
+      "image": "bolsas-de-polietileno-natural.jpg",
+      "price": "5100.00",
+      "detail": "Rollo AD RH 50x70 x 1200 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":12,
+      "name": "Bolsas de Precorte",
+      "image": "bolsa-de-plastico-polietileno-alta-densidad.jpg",
+      "price": "5550.00",
+      "detail": "Rollo AD RH 20x60 (Pan) x 1200 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":13,
+      "name": "Bolsas de Precorte",
+      "image": "bolsa-de-plastico-polietileno-alta-densidad.jpg",
+      "price": "10110.00",
+      "detail": "Rollo BD Rolan 20x30 a 40x50 x 1500 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":14,
+      "name": "Bolsas de Precorte",
+      "image": "bolsa-de-plastico-polietileno-alta-densidad.jpg",
+      "price": "7100.00",
+      "detail": "Rollo BD Poli 20x30 x 1500 grs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":15,
+      "name": "Bolsas Camisetas",
+      "image": "bolsa-de-plastico-tipo-camiseta-1.jpg",
+      "price": "730.00",
+      "detail": "Camiseta blanca 20x30 Polimundi",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":16,
+      "name": "Bolsas Camisetas",
+      "image": "bolsa-de-plastico-tipo-camiseta-1.jpg",
+      "price": "850.00",
+      "detail": "Camiseta blanca 30x40 funda amarilla",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":17,
+      "name": "Bolsas Camisetas",
+      "image": "Bolsas-camisetas.jpg",
+      "price": "940.00",
+      "detail": "Camiseta color 40x50 Nicolle",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":18,
+      "name": "Bolsas Camisetas",
+      "image": "bolsa-de-plastico-tipo-camiseta-1.jpg",
+      "price": "1050.00",
+      "detail": "Camiseta blanca 40x50 Z ",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":19,
+      "name": "Bolsas Camisetas",
+      "image": "Bolsas-camisetas.jpg",
+      "price": "1810.00",
+      "detail": "Camiseta color 45x60 Tiburon",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":20,
+      "name": "Bolsas Camisetas",
+      "image": "Bolsas-camisetas.jpg",
+      "price": "1980.00",
+      "detail": "Camiseta color 45x60 Salome",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":21,
+      "name": "Bolsas Camisetas",
+      "image": "bolsa-de-plastico-tipo-camiseta-1.jpg",
+      "price": "2530.00",
+      "detail": "Camiseta blanca 45x60 Mundi Max",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":22,
+      "name": "Folex",
+      "image": "camisetas.jpg",
+      "price": "6390.00",
+      "detail": "Laminas para hamburguesas 14x14",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":23,
+      "name": "Folex",
+      "image": "lamina-folex.png",
+      "price": "4910.00",
+      "detail": "Laminas para fiambres 20x25 Rolan",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":24,
+      "name": "Folex",
+      "image": "folex son buenas.jpg",
+      "price": "6030.00",
+      "detail": "Laminas para fiambres 20x25 Son Buenas",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":25,
+      "name": "Bolsas de Residuos",
+      "image": "bolsa-negra-01.jpg",
+      "price": "600.00",
+      "detail": "Residuos 45x60 x 30 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":26,
+      "name": "Bolsas de Residuos",
+      "image": "bolsa-negra-01.jpg",
+      "price": "540.00",
+      "detail": "Residuos 45x60 x 20 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":27,
+      "name": "Bolsas de Residuos",
+      "image": "bolsa-negra-01.jpg",
+      "price": "470.00",
+      "detail": "Residuos 45x60 x 10 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":28,
+      "name": "Bolsas de Residuos",
+      "image": "bolsa-negra-01.jpg",
+      "price": "600.00",
+      "detail": "Consorcio 60x90 x 10 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":29,
+      "name": "Bolsas de Residuos",
+      "image": "camisetas.jpg",
+      "price": "5000.00",
+      "detail": "Consorcio 60x90 Blanca x 50 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":30,
+      "name": "Bolsas de Residuos",
+      "image": "camisetas.jpg",
+      "price": "390.00",
+      "detail": "Consorcio 60x90 Patógenas x unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":31,
+      "name": "Bolsas de Residuos",
+      "image": "camisetas.jpg",
+      "price": "290.00",
+      "detail": "Consorcio 60x90 Cristal x unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":32,
+      "name": "Bolsas de Residuos",
+      "image": "bolsa-negra-01.jpg",
+      "price": "1210.00",
+      "detail": "Compactadora 80x110 x 10 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":33,
+      "name": "Bolsas de Residuos",
+      "image": "bolsa-negra-01.jpg",
+      "price": "7340.00",
+      "detail": "Compactadora reforzada 80x110 x 50 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":34,
+      "name": "Bolsas de Residuos",
+      "image": "camisetas.jpg",
+      "price": "410.00",
+      "detail": "Compactadora blanca 80x110 x unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":35,
+      "name": "Bolsas de Residuos",
+      "image": "bolsa-negra-01.jpg",
+      "price": "1590.00",
+      "detail": "Compactadora 90x120 x 10 unid. Polires",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":36,
+      "name": "Bolsas Especiales",
+      "image": "leña.jpg",
+      "price": "4900.00",
+      "detail": "Bolsas para leña 40x70 x 50 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":37,
+      "name": "Bolsas Especiales",
+      "image": "bolsas para horno.jpg",
+      "price": "1350.00",
+      "detail": "Bolsas para horno 30x45 cm x 10 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":38,
+      "name": "Emblocadas",
+      "image":"Emblocadas.jpg",
+      "price": "490.00",
+      "detail": "Bolsas emblocadas 15x20",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":39,
+      "name": "Emblocadas",
+      "image":"Emblocadas.jpg",
+      "price": "570.00",
+      "detail": "Bolsas emblocadas 15x25",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":40,
+      "name": "Emblocadas",
+      "image":"Emblocadas.jpg",
+      "price": "650.00",
+      "detail": "Bolsas emblocadas 20x30",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":41,
+      "name": "Emblocadas",
+      "image":"Emblocadas.jpg",
+      "price": "950.00",
+      "detail": "Bolsas emblocadas 25x35",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":42,
+      "name": "Emblocadas",
+      "image":"Emblocadas.jpg",
+      "price": "1350.00",
+      "detail": "Bolsas emblocadas 30x40",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":43,
+      "name": "Emblocadas",
+      "image":"Emblocadas.jpg",
+      "price": "1760.00",
+      "detail": "Bolsas emblocadas 35x45",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":44,
+      "name": "Emblocadas",
+      "image":"Emblocadas.jpg",
+      "price": "2250.00",
+      "detail": "Bolsas emblocadas 40x50",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":45,
+      "name": "Emblocadas",
+      "image":"Emblocadas.jpg",
+      "price": "2880.00",
+      "detail": "Bolsas emblocadas 20x60 (pan)",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":46,
+      "name": "Bolsas Rendidoras",
+      "image": "rollos rendidor.jpg",
+      "price": "2340.00",
+      "detail": "Rollo 15x25 Rolan",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":47,
+      "name": "Bolsas Rendidoras",
+      "image": "rollos rendidor.jpg",
+      "price": "2710.00",
+      "detail": "Rollo 20x25 Rolan",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":48,
+      "name": "Bolsas Rendidoras",
+      "image": "rollos rendidor.jpg",
+      "price": "4370.00",
+      "detail": "Rollo 25x35 Rolan",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":49,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "290.00",
+      "detail": "polipropileno 04x18 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":50,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "430.00",
+      "detail": "polipropileno 06x20 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":51,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "310.00",
+      "detail": "polipropileno 08x10 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":52,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "670.00",
+      "detail": "polipropileno 10x20 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":53,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "960.00",
+      "detail": "polipropileno 15x20 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":54,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "1630.00",
+      "detail": "polipropileno 15x35 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":55,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "1740.00",
+      "detail": "polipropileno 20x30 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":56,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "2500.00",
+      "detail": "polipropileno 25x35 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":57,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "3390.00",
+      "detail": "polipropileno 30x40 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":58,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "3690.00",
+      "detail": "polipropileno 35x45 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":59,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "5610.00",
+      "detail": "polipropileno 40x50 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":60,
+      "name": "Bolsas de Polipropileno",
+      "image": "polipropileno.jpg",
+      "price": "5130.00",
+      "detail": "BD Tubo prepizza 35x45 impresas x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":61,
+      "name": "Bolsas Riñon",
+      "image": "rinon.jpg",
+      "price": "3820.00",
+      "detail": "Bolsas de corte riñon fantasía 15x20 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":62,
+      "name": "Bolsas Riñon",
+      "image": "rinon.jpg",
+      "price": "4660.00",
+      "detail": "Bolsas de corte riñon fantasía 20x30 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":63,
+      "name": "Bolsas Riñon",
+      "image": "rinon.jpg",
+      "price": "6010.00",
+      "detail": "Bolsas de corte riñon fantasía 25x35 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":64,
+      "name": "Bolsas Riñon",
+      "image": "rinon.jpg",
+      "price": "7710.00",
+      "detail": "Bolsas de corte riñon fantasía 30x40 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":65,
+      "name": "Bolsas Riñon",
+      "image": "rinon.jpg",
+      "price": "13620.00",
+      "detail": "Bolsas de corte riñon fantasía 40x50 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":66,
+      "name": "Bolsas de Papel",
+      "image": "bolsaspapel.jpg",
+      "price": "1340.00",
+      "detail": "Bolsa de papel kraft N 1 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":67,
+      "name": "Bolsas de Papel",
+      "image": "bolsaspapel.jpg",
+      "price": "1760.00",
+      "detail": "Bolsa de papel kraft N 3 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":68,
+      "name": "Bolsas de Papel",
+      "image": "bolsaspapel.jpg",
+      "price": "2380.00",
+      "detail": "Bolsa de papel kraft N 4 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":69,
+      "name": "Bolsas de Papel",
+      "image": "bolsaspapel.jpg",
+      "price": "2880.00",
+      "detail": "Bolsa de papel kraft N 6 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":70,
+      "name": "Bolsas de Papel",
+      "image": "bolsaspapel.jpg",
+      "price": "3580.00",
+      "detail": "Bolsa de papel kraft N 7 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":71,
+      "name": "Bolsas de Papel",
+      "image": "bolsaspapel.jpg",
+      "price": "5000.00",
+      "detail": "Bolsa de papel kraft N 8 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":72,
+      "name": "Cajas Especial",
+      "image": "caja masas.jpg",
+      "price": "450.00",
+      "detail": "Caja cartulina blanca masas 1/4 kgs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":73,
+      "name": "Cajas Especial",
+      "image": "caja masas.jpg",
+      "price": "680.00",
+      "detail": "Caja cartulina blanca masas 1/2 kgs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":74,
+      "name": "Cajas Especial",
+      "image": "caja masas.jpg",
+      "price": "820.00",
+      "detail": "Caja cartulina blanca masas 1 kgs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":75,
+      "name": "Cajas Especial",
+      "image": "cajas tortas cartulina.jpg",
+      "price": "960.00",
+      "detail": "Caja cartulina torta impresas",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":76,
+      "name": "Cajas",
+      "image": "caja-pizza.png",
+      "price": "9590.00",
+      "detail": "Caja de pizza gris E x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":77,
+      "name": "Cajas",
+      "image": "caja-pizza-oct.jpg",
+      "price": "16250.00",
+      "detail": "Caja de pizza ref octogonal x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":78,
+      "name": "Cajas",
+      "image": "caja-pizza-micro.jpg",
+      "price": "27100.00",
+      "detail": "Caja de pizza corrugado x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":79,
+      "name": "Cajas",
+      "image": "caja-lomo.jpg",
+      "price": "5280.00",
+      "detail": "Caja de lomo gris x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":80,
+      "name": "Cajas",
+      "image": "caja-empanadas.jpeg",
+      "price": "9780.00",
+      "detail": "Caja de empanada ref x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":81,
+      "name": "Cajas",
+      "image": "caja-media.jpg",
+      "price": "7010.00",
+      "detail": "Caja de media pizza gris x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":82,
+      "name": "Cajas",
+      "image": "cono-papas.jpeg",
+      "price": "2220.00",
+      "detail": "Conos papas fritas grandes x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":83,
+      "name": "Bandejas de Cartón",
+      "image": "bandeja-de-carton.jpg",
+      "price": "1750.00",
+      "detail": "Bandeja de cartón rectangular N 1 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":84,
+      "name": "Bandejas de Cartón",
+      "image": "bandeja-de-carton.jpg",
+      "price": "2020.00",
+      "detail": "Bandeja de cartón rectangular N 2 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":85,
+      "name": "Bandejas de Cartón",
+      "image": "bandeja-de-carton.jpg",
+      "price": "2660.00",
+      "detail": "Bandeja de cartón rectangular N 3 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":86,
+      "name": "Bandejas de Cartón",
+      "image": "bandeja-de-carton.jpg",
+      "price": "3000.00",
+      "detail": "Bandeja de cartón rectangular N 4 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":87,
+      "name": "Bandejas de Cartón",
+      "image": "bandeja-de-carton.jpg",
+      "price": "3520.00",
+      "detail": "Bandeja de cartón rectangular N 5 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":88,
+      "name": "Bandejas de Cartón",
+      "image": "bandeja-carton1.jpg",
+      "price": "4840.00",
+      "detail": "Bandeja de cartón redonda N 14 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":89,
+      "name": "Bandejas de Cartón",
+      "image": "bandeja-carton1.jpg",
+      "price": "9020.00",
+      "detail": "Bandeja de cartón redonda N 15 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":90,
+      "name": "Bandejas de Cartón",
+      "image": "bandeja-carton1.jpg",
+      "price": "9630.00",
+      "detail": "Bandeja de cartón redonda N 16 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":91,
+      "name": "Bandejas de Cartón Doradas",
+      "image": "redondas-doradas.jpg",
+      "price": "710.00",
+      "detail": "Bandeja N 14 x unidad",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":92,
+      "name": "Bandejas de Cartón Doradas",
+      "image": "redondas-doradas.jpg",
+      "price": "1200.00",
+      "detail": "Bandeja N 15 x unidad",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":93,
+      "name": "Bandejas de Cartón Doradas",
+      "image": "redondas-doradas.jpg",
+      "price": "1540.00",
+      "detail": "Bandeja N 16 x unidad",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":94,
+      "name": "Bandejas de Cartón Doradas",
+      "image": "redondas-doradas.jpg",
+      "price": "750.00",
+      "detail": "Bandeja x 2 kgs rect. x unidad",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":95,
+      "name": "Bandejas de Cartón Doradas",
+      "image": "redondas-doradas.jpg",
+      "price": "1480.00",
+      "detail": "Bandeja x 3 kgs rect. x unidad",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":96,
+      "name": "Papel",
+      "image":"papel-resma.jpg",
+      "price": "2070.00",
+      "detail": "Papel resma 40/60 cm gris x kgs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":97,
+      "name": "Papel",
+      "image":"papel-resma.jpg",
+      "price": "2980.00",
+      "detail": "Papel resma 40/60 cm primera x kgs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":98,
+      "name": "Papel",
+      "image":"bobina papel.jpg",
+      "price": "2070.00",
+      "detail": "Papel bobina 20/40/60 cm gris x kgs",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":99,
+      "name": "Expandido",
+      "image":"obleas 618.png",
+      "price": "7750.00",
+      "detail": "Obleas 618 x 100 unidades",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":100,
+      "name": "Expandido",
+      "image":"obleas 618.png",
+      "price": "10350.00",
+      "detail": "Obleas 619 x 100 unidades",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":101,
+      "name": "Expandido",
+      "image":"expandido 617.jpg",
+      "price": "5230.00",
+      "detail": "Bandejas 617 x 100 unidades",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":102,
+      "name": "Expandido",
+      "image":"expandido 618.jpg",
+      "price": "7750.00",
+      "detail": "Bandejas 618 x 100 unidades",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":103,
+      "name": "Expandido",
+      "image":"expandido-625.jpg",
+      "price": "15860.00",
+      "detail": "Bandejas 625 x 100 unidades",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":104,
+      "name": "Expandido",
+      "image":"expandido 628.jpg",
+      "price": "25020.00",
+      "detail": "Bandejas 628 x 100 unidades",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":105,
+      "name": "Bandejas Plásticas",
+      "image": "Bandejas-Plasticas.jpg",
+      "price": "3800.00",
+      "detail": "Bandejas 101 x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":106,
+      "name": "Bandejas Plásticas",
+      "image": "Bandejas-Plasticas.jpg",
+      "price": "3780.00",
+      "detail": "Bandejas 102 work apta micro x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":107,
+      "name": "Bandejas Plásticas",
+      "image": "Bandejas-Plasticas.jpg",
+      "price": "5610.00",
+      "detail": "Bandejas 103 work apta micro x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":108,
+      "name": "Bandejas Plásticas",
+      "image": "Bandejas-Plasticas.jpg",
+      "price": "7430.00",
+      "detail": "Bandejas 105 work apta micro x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":109,
+      "name": "Bandejas Plásticas",
+      "image": "Bandejas-Plasticas.jpg",
+      "price": "5690.00",
+      "detail": "Bandejas 103 Zuma apta micro x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":110,
+      "name": "Bandejas Plásticas",
+      "image": "Bandejas-Plasticas.jpg",
+      "price": "7590.00",
+      "detail": "Bandejas 105 Zuma apta micro x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":111,
+      "name": "Bandejas Plásticas",
+      "image": "Bandejas-Plasticas.jpg",
+      "price": "12030.00",
+      "detail": "Bandejas 107 apta micro x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":112,
+      "name": "Bandejas Plásticas",
+      "image": "ensaladera.jpg",
+      "price": "220.00",
+      "detail": "Ensaladera bowl 900 cc x unidad",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":113,
+      "name": "Bandejas Plásticas",
+      "image":  "ensaladera.jpg",
+      "price": "110.00",
+      "detail": "Tapa ensaladera bowl 900 cc x unidad",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":114,
+      "name": "Cintas Adhesivas",
+      "image": "cinta-adhesiva.png",
+      "price": "590.00",
+      "detail": "Cinta transparente 24 mm x 50 mts",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":115,
+      "name": "Cintas Adhesivas",
+      "image": "cinta-48.jpg",
+      "price": "2060.00",
+      "detail": "Cinta transparente 48 mm x 100 mts",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":116,
+      "name": "Cubiertos",
+      "image": "Cubiertos.jpg",
+      "price": "2200.00",
+      "detail": "Cuchillos o tenedores Kovalplast x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":117,
+      "name": "Cubiertos",
+      "image": "cuchara.jpg",
+      "price": "2200.00",
+      "detail": "Cuchara sopera x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":118,
+      "name": "Cubiertos",
+      "image": "cucharas-sundae.jpg",
+      "price": "1770.00",
+      "detail": "Cuchara sundae x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    },
+    { 
+      "id":119,
+      "name": "Cubiertos",
+      "image": "agitadores.jpg",
+      "price": "340.00",
+      "detail": "Agitadores para cafe x 100 unid.",
+      "showSaleBadge": false,
+      "showPrice2": false
+    }
+]

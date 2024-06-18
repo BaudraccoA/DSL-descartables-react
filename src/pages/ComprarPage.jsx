@@ -1,4 +1,53 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { ProductCard } from '../components/ProductCard';
+import { images } from '../utils/ImportImages';
+
+export const ComprarPage = ({ agregarAlCarrito }) => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch('/data/products.json') 
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Productos obtenidos:', data);
+        const productsWithImages = data.map(product => ({
+          ...product,
+          image: images[product.image]
+        }));
+        console.log('Productos con imágenes:', productsWithImages);
+        setProducts(productsWithImages);
+      })
+      .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+      });
+  }, []);
+
+
+  return (
+    <section className="py-5">
+      <div className="container px-4 px-lg-5 mt-5">
+        <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+          {products.map((product) => (
+            <ProductCard 
+              key={product.id} 
+              product={product}
+              agregarAlCarrito={agregarAlCarrito} 
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+
+//carga manual de imagenes, primera parte del proyecto: 
+/*import React from 'react';
 import { ProductCard } from '../components/ProductCard';
 import bolsa1 from '../assets/00032405023bolsas-polietileno.jpg';
 import bolsa2 from '../assets/bolsa-de-plastico-polietileno-en-rollo-1.jpg';
@@ -1110,5 +1159,9 @@ export const ComprarPage = ({ agregarAlCarrito }) => {
       </div>
     </section>
   );
-};
+};*/
+
+
+
+
 
