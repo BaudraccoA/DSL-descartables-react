@@ -17,7 +17,7 @@ export const ComprarPage = ({ agregarAlCarrito }) => {
         console.log('Productos obtenidos:', data);
         const productsWithImages = data.map(product => ({
           ...product,
-          image: images[product.image]
+          image: images[product.image] || product.image
         }));
         console.log('Productos con imágenes:', productsWithImages);
         setProducts(productsWithImages);

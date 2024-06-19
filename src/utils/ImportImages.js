@@ -46,5 +46,5 @@
   'Cubiertos.jpg': '/src/assets/images/Cubiertos.jpg',
   'cuchara.jpg': '/src/assets/images/cuchara.jpg',
   'cucharas-sundae.jpg': '/src/assets/images/cucharas-sundae.jpg',
-  'agitadores.jpg': '/src/assets/images/agitadores.jpg',
-};
+  'agitadores.jpg': '/src/assets/images/agitadores.jpg'
+}

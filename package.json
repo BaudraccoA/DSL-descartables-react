@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "start": "node server.cjs"
   },
-  "proxy": "http://localhost:5173",
+  
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.4",
